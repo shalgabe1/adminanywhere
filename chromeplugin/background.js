@@ -17,3 +17,4 @@ chrome.runtime.onInstalled.addListener(function() {
     }]);
   });
 });
+chrome.browserAction.setBadgeText({text: "10+"}); // We have 10+ unread items.
