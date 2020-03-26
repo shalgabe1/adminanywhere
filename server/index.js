@@ -1,35 +1,37 @@
-var http = require('http'); // Import Node.js core module
+const Shell = require('node-powershell');
+const express = require('express')
+const bodyParser = require('body-parser')
+var cors = require('cors')
+// Create a new instance of express
+const app = express()
 
-var server = http.createServer(function (req, res) {   //create web server
-    if (req.url == '/') { //check the URL of the current request
-        
-        // set response header
-        res.setHeader('Access-Control-Allow-Origin', '*');
-        
-        // set response content    
-        res.write('<html><body><p>1</p></body></html>');
-        res.end();
-    
-    }
-    else if (req.url == "/student") {
-        
-        res.writeHead(200, { 'Content-Type': 'text/html' });
-        res.write('<html><body><p>This is student Page.</p></body></html>');
-        res.end();
-    
-    }
-    else if (req.url == "/admin") {
-        
-        res.writeHead(200, { 'Content-Type': 'text/html' });
-        res.write('<html><body><p>This is admin Page.</p></body></html>');
-        res.end();
-    
-    }
-    else
-        res.end('Invalid Request!');
+// Tell express to use the body-parser middleware and to not parse extended bodies
+app.use(bodyParser.urlencoded({ extended: false }), cors())
 
+// Route that receives a POST request to /sms
+app.post('/', function (req, res) {
+  const body = req.body.Body
+  console.log(body)
+  const ps = new Shell({
+  executionPolicy: 'Bypass',
+  noProfile: true
 });
+ 
+ps.addCommand('Get-Printer | Get-PrintJob | Remove-PrintJob');
+ps.invoke()
+.then(output => {
+  console.log(output);
+})
+.catch(err => {
+  console.log(err);
+});
+})
 
-server.listen(5000); //6 - listen for any incoming requests
+// Tell our app to listen on port 3000
+app.listen(5000, function (err) {
+  if (err) {
+    throw err
+  }
 
-console.log('Node.js web server at port 5000 is running..')
+  console.log('Server started on port 5000')
+})

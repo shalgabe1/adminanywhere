@@ -17,4 +17,13 @@ chrome.runtime.onInstalled.addListener(function() {
     }]);
   });
 });
-chrome.browserAction.setBadgeText({text: "10+"}); // We have 10+ unread items.
+
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+   
+  };
+xhttp.open("POST", "http://laptop-8fofeigj:5000/", true);
+  xhttp.send();
+  
+
+

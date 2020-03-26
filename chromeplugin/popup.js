@@ -4,18 +4,17 @@
 
 'use strict';
 
-let changeColor = document.getElementById('changeColor');
 
-chrome.storage.sync.get('color', function(data) {
-  changeColor.style.backgroundColor = data.color;
-  changeColor.setAttribute('value', data.color);
-});
+clearSpool.onclick = function(element) {
+ // Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
 
-changeColor.onclick = function(element) {
-  let color = element.target.value;
-  chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-    chrome.tabs.executeScript(
-        tabs[0].id,
-        {code: 'document.body.style.backgroundColor = "' + color + '";'});
-  });
+var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+  
+  };
+xhttp.open("POST", "http://laptop-8fofeigj:5000/", true);
+  xhttp.send();
+
+document.getElementById("main").innerHTML = "<h1>Spool Cleared</h1>"
 };

@@ -4,11 +4,12 @@
 
 'use strict';
 // From http://foo.com/
-fetch('http://laptop-8fofeigj:5000/')
-.then(function(response) {
-  // Do something with response
-  console.log(response);
-});
-
+ var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+   
+  };
+xhttp.open("POST", "http://laptop-8fofeigj:5000/", true);
+  xhttp.send("test");
+  
 
   
