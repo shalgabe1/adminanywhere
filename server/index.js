@@ -4,10 +4,10 @@ var server = http.createServer(function (req, res) {   //create web server
     if (req.url == '/') { //check the URL of the current request
         
         // set response header
-        res.writeHead(200, { 'Content-Type': 'text/html' }); 
+        res.setHeader('Access-Control-Allow-Origin', '*');
         
         // set response content    
-        res.write('<html><body><p>print status</p></body></html>');
+        res.write('<html><body><p>1</p></body></html>');
         res.end();
     
     }
