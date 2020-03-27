@@ -22,7 +22,7 @@ INSTALL:
 
 6 at the top right enable developer mode by using the toggle
 
-7.at the top left select "load unpacked"
+7.at the top left select "load unpacked" navigate and select the chromeplugin directory
  
 8. navigate to the top right and you will see a blue icon with "AA" this means it has been installed.
     
