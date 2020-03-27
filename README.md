@@ -11,8 +11,8 @@ INSTALL:
 2.Install nodejs
 
 2.Open command line as admin and navigate to adminanywhere/chromeplugin directory
-    run command below (replace 127.0.0.1 with the servers ip or hostname): 
-    echo 127.0.0.1 > ip.txt
+    run command below (replace <ip> with the servers ip or hostname local host and 127.0.0.1 will not work): 
+    echo <ip> > ip.txt
 
 3.navigate to adminanywhere/server then start server by using command node index.js
 
