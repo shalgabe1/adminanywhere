@@ -2,6 +2,7 @@
   "name": "Admin Anywhere",
   "version": "1.0",
   "description": "Manage your windows enviroment",
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
   "permissions": ["activeTab", "declarativeContent", "storage"],
   "options_page": "options.html",
   "background": {

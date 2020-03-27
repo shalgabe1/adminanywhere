@@ -18,12 +18,6 @@ chrome.runtime.onInstalled.addListener(function() {
   });
 });
 
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-   
-  };
-xhttp.open("POST", "http://laptop-8fofeigj:5000/", true);
-  xhttp.send();
-  
+
 
 
