@@ -7,11 +7,14 @@ INSTALL:
 
 1.Download all folders to your machine
 
+
 2.Install nodejs
 
-2.Open command line as admin and navigate to adminanywhere/server
+2.Open command line as admin and navigate to adminanywhere/chromeplugin directory
+    run command below (replace 127.0.0.1 with the servers ip or hostname): 
+    echo 127.0.0.1 > ip.txt
 
-3.start server by using command node index.js
+3.navigate to adminanywhere/server then start server by using command node index.js
 
 4. leave command line terminal open (You can minimized it)
 
@@ -20,10 +23,8 @@ INSTALL:
 6 at the top right enable developer mode by using the toggle
 
 7.at the top left select "load unpacked"
-
-8. navigate to the top right and you will see a blue icon with "AA"
-    left click on it and select "set server" in the dialog box set server to the ip or host name of your 
-    print server "localhost" and "127.0.0.1" will work for if the server and your first client are the same machine.
+ 
+8. navigate to the top right and you will see a blue icon with "AA" this means it has been installed.
     
 9.Print to a printer that is offline or make a job fail
 
