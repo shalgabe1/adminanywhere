@@ -1,6 +1,6 @@
 # adminanywhere
 
-This app allows your to reset the print spool on any windows machines/server using an in chrome browser extension.
+This app allows your to reset the print spool on any windows machines/server using an in chrome browser extension. It's just for fun, but feel free to use it if you like it!
 
 
 INSTALL:
