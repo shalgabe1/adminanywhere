@@ -1,0 +1,66 @@
+2020-03-27 18:09:26 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\briel\Documents\GitHub\adminanywhere\server\node_modules\node-windows\lib\wrapper.js --file C:\Users\briel\Documents\GitHub\adminanywhere\server\index.js --scriptoptions= --log "Admin Anywhere wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-03-27 18:09:26 - Started 7920
+2020-03-27 18:10:05 - Stopping adminanywhere.exe
+2020-03-27 18:10:05 - ProcessKill 7920
+2020-03-27 18:10:05 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-03-27 18:10:28 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\briel\Documents\GitHub\adminanywhere\server\node_modules\node-windows\lib\wrapper.js --file C:\Users\briel\Documents\GitHub\adminanywhere\server\index.js --scriptoptions= --log "Admin Anywhere wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-03-27 18:10:28 - Started 7656
+2020-03-27 18:11:18 - Stopping adminanywhere.exe
+2020-03-27 18:11:18 - ProcessKill 7656
+2020-03-27 18:11:18 - Found child process: 7808 Name: conhost.exe
+2020-03-27 18:11:18 - Found child process: 8976 Name: node.exe
+2020-03-27 18:11:19 - Stopping process 7808
+2020-03-27 18:11:19 - Send SIGINT 7808
+2020-03-27 18:11:19 - SIGINT to 7808 failed - Killing as fallback
+2020-03-27 18:11:19 - Stopping process 8976
+2020-03-27 18:11:19 - Send SIGINT 8976
+2020-03-27 18:11:19 - SIGINT to 8976 failed - Killing as fallback
+2020-03-27 18:11:19 - Stopping process 7656
+2020-03-27 18:11:19 - Send SIGINT 7656
+2020-03-27 18:11:19 - SIGINT to 7656 failed - Killing as fallback
+2020-03-27 18:11:19 - Finished adminanywhere.exe
+2020-03-27 18:13:35 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\briel\Documents\GitHub\adminanywhere\server\node_modules\node-windows\lib\wrapper.js --file C:\Users\briel\Documents\GitHub\adminanywhere\server\index.js --scriptoptions= --log "Admin Anywhere wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-03-27 18:13:35 - Started 1696
+2020-03-27 18:14:57 - Stopping adminanywhere.exe
+2020-03-27 18:14:57 - ProcessKill 1696
+2020-03-27 18:14:57 - Found child process: 17468 Name: conhost.exe
+2020-03-27 18:14:57 - Found child process: 3712 Name: node.exe
+2020-03-27 18:14:57 - Stopping process 17468
+2020-03-27 18:14:57 - Send SIGINT 17468
+2020-03-27 18:14:57 - SIGINT to 17468 failed - Killing as fallback
+2020-03-27 18:14:57 - Stopping process 3712
+2020-03-27 18:14:57 - Send SIGINT 3712
+2020-03-27 18:14:57 - SIGINT to 3712 failed - Killing as fallback
+2020-03-27 18:14:57 - Stopping process 1696
+2020-03-27 18:14:57 - Send SIGINT 1696
+2020-03-27 18:14:57 - SIGINT to 1696 failed - Killing as fallback
+2020-03-27 18:14:57 - Finished adminanywhere.exe
+2020-03-27 18:14:58 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\briel\Documents\GitHub\adminanywhere\server\node_modules\node-windows\lib\wrapper.js --file C:\Users\briel\Documents\GitHub\adminanywhere\server\index.js --scriptoptions= --log "Admin Anywhere wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-03-27 18:14:58 - Started 18884
+2020-03-27 18:16:46 - Stopping adminanywhere.exe
+2020-03-27 18:16:46 - ProcessKill 18884
+2020-03-27 18:16:47 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-03-27 18:17:12 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\briel\Documents\GitHub\adminanywhere\server\node_modules\node-windows\lib\wrapper.js --file C:\Users\briel\Documents\GitHub\adminanywhere\server\index.js --scriptoptions= --log "Admin Anywhere wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-03-27 18:17:12 - Started 7636
