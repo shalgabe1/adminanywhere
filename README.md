@@ -1,38 +1,38 @@
 # adminanywhere
 
-This app allows your to reset the print spool on any windows machines/server using an in chrome browser extension. It's just for fun, but feel free to use it if you like it!
+<h3>This app allows your to reset the print spool on any windows machines/server using an in chrome browser extension. It's just for fun, but feel free to use it if you like it!<h3>
+
+<ul>
+<h3>INSTALL:<h3>
+
+<l1>Download all folders to your machine</li>
 
 
-INSTALL:
+<l1>Install nodejs</li>
 
-1.Download all folders to your machine
-
-
-2.Install nodejs
-
-2.Open command line as admin and navigate to adminanywhere/chromeplugin directory
+<l1>Open command line as admin and navigate to adminanywhere/chromeplugin directory
     run command below (replace <ip> with the servers ip or hostname local host and 127.0.0.1 will not work): 
-    echo <ip> > ip.txt
+    echo <ip> > ip.txt</li>
 
-3.navigate to adminanywhere/server then start server by using command node index.js
+<l1>navigate to adminanywhere/server then start server by using command node index.js</li>
 
-4. leave command line terminal open (You can minimized it)
+<l1>leave command line terminal open (You can minimized it)</li>
 
-5. Go to chrome browser > Menu (Three dots) > more tools > extensions
+<l1>Go to chrome browser > Menu (Three dots) > more tools > extensions</li>
 
-6 at the top right enable developer mode by using the toggle
+<l1>at the top right enable developer mode by using the toggle</li>
 
-7.at the top left select "load unpacked" navigate and select the chromeplugin directory
+<l1>at the top left select "load unpacked" navigate and select the chromeplugin directory</li>
  
-8. navigate to the top right and you will see a blue icon with "AA" this means it has been installed.
+<l1>navigate to the top right and you will see a blue icon with "AA" this means it has been installed.</li>
     
-9.Print to a printer that is offline or make a job fail
+<l1>Print to a printer that is offline or make a job fail</li>
 
-10.Left click back on the "AA" in chrome and click on clear spool.
+<l1>Left click back on the "AA" in chrome and click on clear spool.</li>
 
-11. Watch your print spool clear!
+<l1>Watch your print spool clear!</li>
 
-
+</ul>
 NOTE: Bitdefender will block after three clears and the node js app will need to be restarted. Add an exclusion once this happen.
 
 COMING SOON:
