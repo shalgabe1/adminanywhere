@@ -1,1 +1,0 @@
-start /b node server/index.js > log.txt
